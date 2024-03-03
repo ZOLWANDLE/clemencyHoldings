@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-image: url(gardenPot.jpg);
+    width: 100%;
+    height:600px;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    z-index: -1;
+    overflow: hidden;
+    
+}
+.navbar{
+    background-color: #fefdfd;
+    overflow: hidden;
+    position: -webkit-sticky; 
+    position: sticky;
+}
+.navbar a{
+    float: right;
+    color: #060000;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 1;
+    padding-right: 40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;position: relative;
+    right: 30px;
+    
+}
+.navbar a:hover{
+    background-color: #0b883b;
+    color: #fefdfd;
+    text-align: center;
+    border-radius: 15px;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+    padding: 25px;
+    margin: 10px;
+}
+.logo{
+    float: left;
+    text-align: center;
+    vertical-align: baseline;
+}
+.logo img{
+    height: 80px;
+    width: 100px;
+    padding-top: 7px;
+    position: relative;
+    left: 55px;
+}
+.logoText{
+    text-align: center;
+    width: 100px;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 21px;
+    left: 50px;
+    
+}
